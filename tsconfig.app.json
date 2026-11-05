@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@src/*": ["./src/*"],
+            "@components/*": ["./src/components/*"],
+            "@constants/*": ["./src/constants/*"],
+            "@context/*": ["./src/context/*"],
+            "@hooks/*": ["./src/hooks/*"],
+            "@layouts/*": ["./src/layouts/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@themes/*": ["./src/themes/*"]
+        },
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+        "target": "ES2023",
+        "useDefineForClassFields": true,
+        "lib": ["ES2023", "DOM", "DOM.Iterable"],
+        "module": "ESNext",
+        "types": ["vite/client"],
+        "skipLibCheck": true,
+
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "verbatimModuleSyntax": false,
+        "moduleDetection": "force",
+        "noEmit": true,
+        "jsx": "react-jsx",
+
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "erasableSyntaxOnly": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedSideEffectImports": true
+    },
+    "include": ["src"]
+}
